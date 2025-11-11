@@ -44,7 +44,7 @@ export async function POST(req: Request) {
         text: "📸 Uploaded a plant image for analysis.",
       });
 
-      const plantPrompt = `
+
 const plantPrompt = `
 You are Vrindavan — a confident and friendly plant-care expert.
 The user has shared a plant image. Analyze it directly and reply briefly in Markdown.
